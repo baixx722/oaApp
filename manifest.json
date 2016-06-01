@@ -271,7 +271,8 @@
 					"css/iconfont.css",
 					"fonts/iconfont.ttf",
 					"css/mui.css",
-					"img/logo.png"
+					"img/logo.png",
+					"pages/peach.html"
 				],
 				"refer": [],
 				"priority": 0

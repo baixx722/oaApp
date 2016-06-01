@@ -1,138 +1,140 @@
 {
-  "index.html": {
-    "resources": [
-      "img/right.gif",
-      "img/left.gif",
-      "css/common.css",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/iconfont.css",
-      "css/mui.min.css",
-      "fonts/iconfont.ttf",
-      "img/unner.gif",
-      "css/mui.css"
-    ]
-  },
-  "pages/index.html": {
-    "resources": [
-      "css/index.css",
-      "img/right.gif",
-      "img/left.gif",
-      "css/common.css",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/iconfont.css",
-      "pages/latest_info.html",
-      "fonts/iconfont.ttf",
-      "css/mui.css",
-      "img/unner.gif",
-      "pages/teacher.html",
-      "pages/peach.html",
-      "js/nav.js",
-      "pages/unit_index.html"
-    ],
-    "refer": [
-      "pages/latest_info.html",
-      "pages/teacher.html",
-      "pages/peach.html",
-      "pages/unit_index.html"
-    ]
-  },
-  "pages/latest_info.html": {
-    "resources": [
-      "css/latest_info.css",
-      "js/mui.pullToRefresh.js",
-      "js/mui.pullToRefresh.material.js",
-      "pages/index.html",
-      "css/common.css",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/iconfont.css",
-      "fonts/iconfont.ttf",
-      "css/mui.css",
-      "js/nav.js"
-    ],
-    "refer": [
-      "pages/index.html"
-    ]
-  },
-  "pages/teacher.html": {
-    "resources": [
-      "css/teacher_recruitment.css",
-      "pages/index.html",
-      "js/mui.min.js",
-      "css/common.css",
-      "fonts/mui.ttf",
-      "css/iconfont.css",
-      "fonts/iconfont.ttf",
-      "css/mui.css"
-    ],
-    "refer": [
-      "pages/index.html"
-    ]
-  },
-  "pages/peach.html": {
-    "resources": [
-      "js/mui.picker.js",
-      "css/app.css",
-      "js/mui.poppicker.js",
-      "css/mui.poppicker.css",
-      "css/peach.css",
-      "css/mui.picker.css",
-      "pages/index.html",
-      "js/mui.min.js",
-      "css/common.css",
-      "fonts/mui.ttf",
-      "css/iconfont.css",
-      "fonts/iconfont.ttf",
-      "css/mui.css",
-      "pages/unit_index.html"
-    ],
-    "refer": [
-      "pages/index.html",
-      "pages/unit_index.html"
-    ]
-  },
-  "pages/unit_index.html": {
-    "resources": [
-      "css/unit_index.css",
-      "img/right.gif",
-      "img/left.gif",
-      "js/mui.min.js",
-      "css/common.css",
-      "fonts/mui.ttf",
-      "css/iconfont.css",
-      "fonts/iconfont.ttf",
-      "css/mui.css",
-      "js/mui.picker.js",
-      "js/mui.poppicker.js",
-      "css/mui.picker.css",
-      "css/mui.poppicker.css",
-      "pages/index.html",
-      "css/peach.css",
-      "pages/units.html"
-    ],
-    "refer": [
-      "pages/index.html",
-      "pages/units.html"
-    ]
-  },
-  "pages/units.html": {
-    "resources": [
-      "css/mui.min.css",
-      "pages/unit_index.html",
-      "fonts/mui.ttf",
-      "css/units.css",
-      "img/ad.gif",
-      "js/mui.min.js",
-      "css/common.css",
-      "css/iconfont.css",
-      "fonts/iconfont.ttf",
-      "css/mui.css",
-      "img/logo.png"
-    ],
-    "refer": [
-      "pages/unit_index.html"
-    ]
-  }
+	"index.html": {
+		"resources": [
+			"img/right.gif",
+			"img/left.gif",
+			"css/common.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"fonts/iconfont.ttf",
+			"img/unner.gif",
+			"css/mui.css"
+		]
+	},
+	"pages/index.html": {
+		"resources": [
+			"css/index.css",
+			"img/right.gif",
+			"img/left.gif",
+			"css/common.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"pages/latest_info.html",
+			"fonts/iconfont.ttf",
+			"css/mui.css",
+			"img/unner.gif",
+			"pages/teacher.html",
+			"pages/peach.html",
+			"js/nav.js",
+			"pages/unit_index.html"
+		],
+		"refer": [
+			"pages/latest_info.html",
+			"pages/teacher.html",
+			"pages/peach.html",
+			"pages/unit_index.html"
+		]
+	},
+	"pages/latest_info.html": {
+		"resources": [
+			"css/latest_info.css",
+			"js/mui.pullToRefresh.js",
+			"js/mui.pullToRefresh.material.js",
+			"pages/index.html",
+			"css/common.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/mui.css",
+			"js/nav.js"
+		],
+		"refer": [
+			"pages/index.html"
+		]
+	},
+	"pages/teacher.html": {
+		"resources": [
+			"css/teacher_recruitment.css",
+			"pages/index.html",
+			"js/mui.min.js",
+			"css/common.css",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/mui.css"
+		],
+		"refer": [
+			"pages/index.html"
+		]
+	},
+	"pages/peach.html": {
+		"resources": [
+			"js/mui.picker.js",
+			"css/app.css",
+			"js/mui.poppicker.js",
+			"css/mui.poppicker.css",
+			"css/peach.css",
+			"css/mui.picker.css",
+			"pages/index.html",
+			"js/mui.min.js",
+			"css/common.css",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/mui.css",
+			"pages/unit_index.html"
+		],
+		"refer": [
+			"pages/index.html",
+			"pages/unit_index.html"
+		]
+	},
+	"pages/unit_index.html": {
+		"resources": [
+			"css/unit_index.css",
+			"img/right.gif",
+			"img/left.gif",
+			"js/mui.min.js",
+			"css/common.css",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/mui.css",
+			"js/mui.picker.js",
+			"js/mui.poppicker.js",
+			"css/mui.picker.css",
+			"css/mui.poppicker.css",
+			"pages/index.html",
+			"css/peach.css",
+			"pages/units.html"
+		],
+		"refer": [
+			"pages/index.html",
+			"pages/units.html"
+		]
+	},
+	"pages/units.html": {
+		"resources": [
+			"css/mui.min.css",
+			"pages/unit_index.html",
+			"fonts/mui.ttf",
+			"css/units.css",
+			"img/ad.gif",
+			"js/mui.min.js",
+			"css/common.css",
+			"css/iconfont.css",
+			"fonts/iconfont.ttf",
+			"css/mui.css",
+			"img/logo.png",
+			"pages/peach.html"
+		],
+		"refer": [
+			"pages/unit_index.html",
+			"pages/peach.html"
+		]
+	}
 }
