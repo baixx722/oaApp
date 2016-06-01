@@ -1,0 +1,175 @@
+<!-- 田慧婷 thtlovelife@163.com 就业oa首页-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>首页</title>
+    <link href="../css/mui.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/iconfont.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="../js/mui.min.js"></script>
+    <script>
+    	mui.init();
+    </script>
+</head>
+<body>
+	<!-- 顶部标题 公共模块 start -->
+	<header class="mui-bar mui-bar-nav head">
+		<h1 class="mui-title header">首页</h1>
+	</header>
+	<!-- 顶部标题 公共模块 end -->
+	<!-- 底部 导航 公共模块 start -->
+	<nav class="mui-bar mui-bar-tab bottom">
+			<a id="defaultTab J_index" class="mui-tab-item mui-active" href="index.html">
+				<span class="mui-icon iconfont icon-shouye"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a id="J_info" class="mui-tab-item" href="peach.html">
+				<span class="mui-icon iconfont icon-info"></span>
+				<span class="mui-tab-label">招聘信息</span>
+			</a>
+			<a id="J_unit" class="mui-tab-item" href="unit_index.html">
+				<span class="mui-icon iconfont icon-wanglaidanwei"></span>
+				<span class="mui-tab-label">用人单位</span>
+			</a>
+			<a id="J_me" class="mui-tab-item" href="peach.html">
+				<span class="mui-icon iconfont icon-geren"></span>
+				<span class="mui-tab-label">求职通</span>
+			</a>
+	</nav>
+	<!-- 底部 导航 公共模块 end -->
+	<!-- 内容 start -->
+	<div class="mui-content">
+		<!-- 轮播 start -->
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="../img/unner.gif">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../img/unner.gif">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../img/unner.gif">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../img/unner.gif">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="../img/unner.gif">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<!-- 轮播结束 -->
+		<!-- 最新公告 start -->
+		<div class="mui-card info">
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li class="mui-table-view-cell ">
+					<a href="latest_info.html" class="mui-navigate-right orange bold">
+						<i class="mui-pull-left update border-left">&nbsp;</i>最新公告 
+						<i class="mui-pull-right update grey">more</i>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="#">
+						【免费师范】人才合作启动预
+						<i class="mui-pull-right update grey">2015/10/16</i>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						免费师范人才合作启动预案书
+						<i class="mui-pull-right update grey">2015/10/16</i>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 3
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 4
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 5
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 6
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 7
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 8
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						Item 9
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 最新公告 end -->
+		<!-- 直通车 start -->
+		<div class="mui-content-padded bottom">
+			<ul class="mui-table-view mui-grid-view">
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a href="teacher.html">
+		                <img class="mui-media-object" src="../img/left.gif">
+		            </a>
+		            </a>
+		            </a>
+		        </li>
+		        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+		            <a href="peach.html">
+		                <img class="mui-media-object" src="../img/right.gif">
+		            </a>
+		        </li>
+		    </ul> 
+		</div>
+		<!-- 直通车 end -->
+	</div>
+	<!-- 内容 end -->
+	<script type="application/javascript" charset="UTF-8">
+		//底部导航跳转
+		mui('.mui-bar-tab').on('tap','a',function(){
+			location.href = this.getAttribute('href');
+		});
+	</script>
+</body>
+</html>

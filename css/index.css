@@ -1,0 +1,32 @@
+/*
+ * 模块 ： 就业oa 首页
+ * 作者： 田慧婷
+ * 创建日期： 2016.5.8
+ */
+.info {
+	margin-top: 5px;
+}
+
+.border-left {
+	border-left: 3px solid #f25f1e;
+}
+
+.grey {
+	color: #dedcdb;
+}
+
+.orange {
+	color: #f25f1e !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a.white {
+	color: #fff;
+}
+
+.bottom {
+	margin-top: -3px;
+}

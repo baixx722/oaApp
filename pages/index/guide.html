@@ -1,0 +1,52 @@
+<!--初始登陆启动页-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>首次使用页</title>
+    <script src="../../js/mui.min.js"></script>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../css/login/first_start.css" />
+</head>
+<body>
+	<div id="slider" class="mui-slider mui-fullscreen" style="background-color: black;">
+		<div class="mui-slider-group">
+			<div class="mui-slider-item item1">
+			</div>
+			<div class="mui-slider-item item2">
+			</div>
+			<div class="mui-slider-item item3">
+			</div>
+			<div class="mui-slider-item item4">
+				<div class="enter" href="login.html" id="J_enter">立即进入</div>
+			</div>
+		</div>
+		<div class="mui-slider-indicator">
+			<div class="mui-indicator mui-active"></div>
+			<div class="mui-indicator"></div>
+			<div class="mui-indicator"></div>
+			<div class="mui-indicator"></div>
+		</div>
+	</div>
+	<script>
+		mui.init();
+		mui.back = function() {};
+		mui.plusReady(function() {
+			if(mui.os.ios){
+				plus.navigator.setFullscreen(true);
+			}
+			plus.navigator.closeSplashscreen();
+		});
+		
+		//立即进入按钮点击事件
+		document.getElementById("J_enter").addEventListener('tap', function() {
+			plus.storage.setItem("lauchFlag","true");//给lauchFlag设置一个值，本地存储
+			plus.navigator.setFullscreen(false);
+			plus.webview.currentWebview().close();
+		}, false);
+	</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+html,body, .mui-content {
+	background-color: #fff;
+}
+
+.btns {
+	padding: 8px;
+}
+
+h4 {
+	margin-bottom: 8px;
+}
+
+form {
+	display: inline-block;
+	margin-top: 8px;
+	float: right;
+}
+
+.picer {
+	margin-top: 44px;
+}
+
+.mui-content {
+	margin-top: -20px;	
+}
+
+.date {
+	float: left;
+	display: block;
+	width: 40px;
+	height: 55px;
+	font-size: 16px;
+	color: #fff;
+}
+
+
+strong {
+	display: inline-block;
+	margin-top: 8px;
+	font-size: 20px;
+}
+
+.time {
+	float: left;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+h5 {
+	height: 30px;
+	line-height: 30px;
+}
+
+.btn {
+	float: right;
+}
